@@ -1,0 +1,5 @@
+websockets>=13
+aiohttp>=3.9
+python-dotenv>=1.0
+eth-abi>=5
+predict-sdk==0.0.22

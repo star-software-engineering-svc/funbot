@@ -1,0 +1,15 @@
+# secrets and local state
+.env
+*.env
+!.env.example
+!backtest.env
+positions.json
+# runtime data, reports, backtests: everything under output/
+output/
+# environments / caches
+venv
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+servers.txt
